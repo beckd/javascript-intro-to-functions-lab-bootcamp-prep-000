@@ -9,7 +9,7 @@ function logShout(string) {
 }
 function sayHiToGrandma(string) {
   return string.toLowerCase
-  if (string) = 'lowerCase';
+  if ('hello') = 'lowerCase';
 }
 
 /* describe('sayHiToGrandma(string)', function() {
