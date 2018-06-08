@@ -5,7 +5,7 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function sayHiToGrandma(string) {
-  return sayHiToGrandma('hello')).toEqual("I can't hear you!")string.toLowerCase(
+  return sayHiToGrandma('hello')).toEqual("I can't hear you!")string.toLowerCase
 }
 
 /* describe('sayHiToGrandma(string)', function() {
