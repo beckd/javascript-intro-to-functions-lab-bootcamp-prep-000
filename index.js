@@ -15,7 +15,7 @@ function sayHiToGrandma(string) {
     return "I can't hear you!";
   } else if (string.toUpperCase())
     return "YES INDEED!";
-  }   
+  }
 
 /* describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
