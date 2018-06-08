@@ -7,6 +7,9 @@ function whisper(string) {
 function logShout(string) {
   console.log(string.toUpperCase())
 }
+function logWhispe(string) {
+  console.log(string.toLowerCase())
+}
 
 /* describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
