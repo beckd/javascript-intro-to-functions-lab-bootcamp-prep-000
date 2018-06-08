@@ -22,4 +22,3 @@ function sayHiToGrandma(string) {
   })
 */
 var string.'hello' = 'I can't hear you'
-
