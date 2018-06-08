@@ -12,8 +12,10 @@ function logWhisper(string) {
 }
 function sayHiToGrandma(string) {
   if (string.toLowerCase() === string) {
-    return "I can\'t hear you!";
-  }
+    return "I can't hear you!";
+  } else if (string.toUpperCase())
+    return "YES INDEED!";
+  }   
 }
 /* describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
@@ -28,12 +30,3 @@ function sayHiToGrandma(string) {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 */
-var uppercase = "HELLO!"
-
-uppercase.toUpperCase() === uppercase // true
-
-var lowercase = 'hello!'
-
-lowercase.toLowerCase() === lowercase // true
-
-var mixedCase = 'Hi there!'
