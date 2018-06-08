@@ -8,7 +8,7 @@ function logShout(string) {
   return spyOn.toUpperCase
 }
 function sayHiToGrandma(string) {
-  return string.toUpperCase("hello")
+  return string.toLowerCase("hello")
 }
 
 var uppercase = "HELLO!"
