@@ -8,7 +8,8 @@ function logShout(string) {
   return spyOn.toUpperCase
 }
 function sayHiToGrandma(string) {
-  return string.toLowerCase("I can't hear you")
+  return string.toLowerCase
+  if 'string' = lowerCase;
 }
 
 /* describe('sayHiToGrandma(string)', function() {
@@ -24,3 +25,16 @@ function sayHiToGrandma(string) {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 */
+var uppercase = "HELLO!"
+ 
+uppercase.toUpperCase() === uppercase // true
+ 
+var lowercase = 'hello!'
+ 
+lowercase.toLowerCase() === lowercase // true
+ 
+var mixedCase = 'Hi there!'
+ 
+mixedCase.toLowerCase() === mixedCase // false
+ 
+mixedCase.toUpperCase() === mixedCase // false
