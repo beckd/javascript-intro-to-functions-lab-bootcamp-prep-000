@@ -6,7 +6,7 @@ function whisper(string) {
 }
 function sayHiToGrandma(string) {
   if 'string' = var lowercase
-  return "I can't hear you!"
+  return ("I can't hear you!")
 }
 
 /* describe('sayHiToGrandma(string)', function() {
