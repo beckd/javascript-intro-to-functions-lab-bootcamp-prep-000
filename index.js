@@ -8,10 +8,10 @@ function logShout(string) {
   return spyOn.toUpperCase
 }
 function sayHiToGrandma(string) {
-  return string === lowercase
+  return string.toUpperCase("I can't hear you!")
 }
 
-describe('sayHiToGrandma(string)', function() {
+/* describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
   })
@@ -23,17 +23,4 @@ describe('sayHiToGrandma(string)', function() {
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
-
-var uppercase = "HELLO!"
-
-uppercase.toUpperCase() === uppercase // true
-
-var lowercase = 'hello!'
-
-lowercase.toLowerCase() === lowercase // true
-
-var mixedCase = 'Hi there!'
-
-mixedCase.toLowerCase() === mixedCase // false
-
-mixedCase.toUpperCase() === mixedCase // false
+*/ 
