@@ -21,4 +21,4 @@ function sayHiToGrandma(string) {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 */
-var string.'hello' = 'I can't hear you'
+var string('hello') = 'I can't hear you'
