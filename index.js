@@ -4,12 +4,9 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function logShout(string) {
-  return spyOn.toUpperCase
-}
 function sayHiToGrandma(string) {
-  return string.toLowerCase
-  if ('hello') = 'lowerCase';
+  if string.toLowerCase
+  return "I can't hear you!"
 }
 
 /* describe('sayHiToGrandma(string)', function() {
