@@ -5,7 +5,7 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function sayHiToGrandma(string) {
-  return string.toLowerCase(sayHiToGrandma)
+  return string.toLowerCase(sayHiToGrandma('hello')).toEqual("I can't hear you!")
 }
 
 /* describe('sayHiToGrandma(string)', function() {
@@ -21,4 +21,3 @@ function sayHiToGrandma(string) {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 */
-var sayHiToGrandma.string('hello') = 'I can't hear you!'
